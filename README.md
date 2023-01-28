@@ -2,7 +2,11 @@
 A clone of the Mutable Instruments Braids Eurorack module with the use of the STM32F103 Blue Pill board.
 
 ## Module Built and PCBs
-If you want to build the module yourself, I uploaded the schematic, the BOM and the Gerber files for the PCB.
+If you want to build the module yourself, I uploaded firmware, schematic, BOM and Gerber files for the PCB.
+
+NOTE:
+Firmware and schematic differ from the original design due to restrictions on the Blue Pill board.
+More details are given below in section Firmware.
 
 There are two different versions for the control board, an "original" and a "Thonk" version.
 Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
@@ -36,7 +40,7 @@ The SMD components are:
 
 ## Firmware
 I shared the .hex files for the STM32F103 chip (bootloader and main) in the folder Firmware.
-Those files differ from the original files from Mutable Instruments.
+Those files and the schematic differ from the originals from Mutable Instruments.
 Reason is the use of the Blue Pill board, as the chip's pins C13, C14, and C15 are already occupied on the Blue Pill board.
 But the original design from Mutable Instruments is using them for the encoder.
 
