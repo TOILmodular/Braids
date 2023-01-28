@@ -1,5 +1,5 @@
 # Braids
-A Mutable Instruments Braids clone with the use of the STM32F103 Blue Pill Board.
+A clone of the Mutable Instruments Braids Eurorack module with the use of the STM32F103 Blue Pill board.
 
 ## Module Built and PCBs
 If you want to build the module yourself, I uploaded the schematic, the BOM and the Gerber files for the PCB.
