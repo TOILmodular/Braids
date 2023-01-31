@@ -29,6 +29,9 @@ If you want to know about my DIY building process, take a look at those two YouT
 I added the information about hole coordinates for the front panel in the folder PanelLayout, refering to the component layout in the Gerber files.
 
 ## Additional Information about specific Components
+I could not get the DAC8551 chip from the original design, not in stock.
+Instead, I tried the still available DAC8501, which turned out to work just fine, and which is also 16bit, like the original one.
+
 Most of the components are through-hole, including the microchip part, thanks to the available Blue Pill board. However, there are a few components, which I did not find a THT version, or which I got used to use them frequently (like bypass caps for ICs and NPN transistors.
 The SMD components are:
 - DAC8501 (DAC, SOP8 package, the most challenging component due to its size)
@@ -46,9 +49,6 @@ But the original design from Mutable Instruments is using them for the encoder.
 
 Therefore, I changed the coding in three source code files, so that instead pins A0, A1, and A2 are used, which are not in use in the original design.
 I got the idea for that from Nicolas Toussaint (SoundForce), who published [another Braids version on his website](https://sound-force.nl/?page_id=3179). That version is entirely through-hole, as it is using a different DAC.
-
-I could not get the original DAC8551 anymore.
-Instead, I tried the still available DAC8501, which turned out to work just fine, and which is also 16bit, like the original one.
 
 ## STM32F103 Version
 CAUTION! There are three different versions of the Blue Pill board available.
