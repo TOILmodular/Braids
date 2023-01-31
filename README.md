@@ -50,6 +50,21 @@ But the original design from Mutable Instruments is using them for the encoder.
 Therefore, I changed the coding in three source code files, so that instead pins A0, A1, and A2 are used, which are not in use in the original design.
 I got the idea for that from Nicolas Toussaint (SoundForce), who published [another Braids version on his website](https://sound-force.nl/?page_id=3179). That version is entirely through-hole, as it is using a different DAC.
 
+The following original source code files have been adjusted:
+- encoder.cc (in subfolder /drivers)
+- encoder.h (in subfolder /drivers)
+
+If you want to compile your own .hex files, you need to search the texts in the below table and replace them in the entire file, as stated.
+| File name | Original | Replace with |
+| --- | --- | --- |
+| encoder.cc | Pin_13 | Pin_2 |
+| encoder.cc | Pin_14 | Pin_0 |
+| encoder.cc | Pin_15 | Pin_1 |
+| encoder.cc | gpioc | gpioa |
+| encoder.cc | GPIOC | GPIOA |
+| encoder.h | Pin_13 | Pin_2 |
+| encoder.h | GPIOC | GPIOA |
+
 ## STM32F103 Version
 CAUTION! There are three different versions of the Blue Pill board available.
 The difference is the version of the ST32F103 microchip on the board.
