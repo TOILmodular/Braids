@@ -36,7 +36,7 @@ Most of the components are through-hole, including the microchip part, thanks to
 The SMD components are:
 - DAC8501 (DAC, SOP8 package, the most challenging component due to its size)
 - LM1117-3.3 (voltage regulator, SOT223 package)
-- LM4040B10 (voltage regulator, SOT23 package)
+- LM4040B25 and LM4040B10 (voltage regulators, SOT23 package)
 - MMBT3904 (SMD version of the 2N3904 transistor, SOT23 Package)
 - 0.1uF bypass caps for ICs (1608 package)
 - 24.9K resistors (1608 package)
