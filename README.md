@@ -50,9 +50,6 @@ I got the idea for that from Nicolas Toussaint (SoundForce), who published [anot
 I could not get the original DAC8551 anymore.
 Instead, I tried the still available DAC8501, which turned out to work just fine, and which is also 16bit, like the original one.
 
-The catch with this firmware is that one cannot just use any available .wav file for updating the module, as that one would still contain the wrong pin layout for my module version.
-Anyway, I created the .hex files from the files on the original website from Mutable Instruments, as of January 2023, which should be version 1.8.
-
 ## STM32F103 Version
 CAUTION! There are three different versions of the Blue Pill board available.
 The difference is the version of the ST32F103 microchip on the board.
