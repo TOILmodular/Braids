@@ -1,5 +1,5 @@
-# Braids
-A clone of the Mutable Instruments Braids Eurorack module with the use of the STM32F103 Blue Pill board.
+# Braids - Macro Oscillator for Eurorack
+A clone of the Mutable Instruments Braids module with the use of the STM32F103 Blue Pill board.
 
 ## Module Build and PCBs
 If you want to build the module yourself, I uploaded firmware, schematic, BOM and Gerber files for the PCB.
