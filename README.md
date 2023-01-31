@@ -14,8 +14,6 @@ Reason is that for my own module, I am using specific potentiometers - 16K4 seri
 However, since most DIY projects for Eurorack modules out there are using potentiometers from ALPHA and so-called THONKICONN jacks, as they are provided by Thonk in the UK, I also created a version with footprints for those components.
 Choose the one you need.
 
-The reason is simply that I did not find any stereo type of the THONKICONN jacks.
-
 The layout of the main PCB is the same for both versions.
 
 I created the Gerber files with the online tool EasyEDA and ordered it at JLCPCB.
