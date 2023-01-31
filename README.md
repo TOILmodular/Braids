@@ -24,7 +24,7 @@ If you want to know about my DIY building process, take a look at those two YouT
 - [Eurorack Module Synth - Building an Electric Druid Wavetable Oscillator Module](https://youtu.be/ECpdo4HfqLg)
 
 ## Panel Layout
-I added the information about hole coordinates for the front panel in the folder PanelLayout, refering to the component layout in the Gerber files.
+I added the information about hole coordinates for the front panel in the folder PanelLayout, referring to the component layout in the Gerber files.
 
 ## Additional Information about specific Components
 I could not get the DAC8551 chip from the original design, not in stock.
