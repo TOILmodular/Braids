@@ -19,9 +19,7 @@ The layout of the main PCB is the same for both versions.
 I created the Gerber files with the online tool EasyEDA and ordered it at JLCPCB.
 I cannot guarantee, if this set of zipped Gerber files works also for other providers, like e.g. PCBWay. I have not tried that. But I saw online, that others did it.
 
-If you want to know about my DIY building process, take a look at those two YouTube videos:
-- [How I design PCBs for my Eurorack Synth Modules](https://youtu.be/pXtuV9Pv-m4)
-- [Eurorack Module Synth - Building an Electric Druid Wavetable Oscillator Module](https://youtu.be/ECpdo4HfqLg)
+If you want to know about my DIY building process, take a look at [this YouTube video](https://youtu.be/pXtuV9Pv-m4).
 
 ## Panel Layout
 I added the information about hole coordinates for the front panel in the folder PanelLayout, referring to the component layout in the Gerber files.
