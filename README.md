@@ -63,6 +63,12 @@ If you want to compile your own .hex files, you need to search the texts in the 
 | encoder.h | Pin_13 | Pin_2 |
 | encoder.h | GPIOC | GPIOA |
 
+## Alternative Firmware (Mutated Mutables)
+Besides the adjusted original firmware from Mutable Instruments, I also added an alternative firmware from Tim Churches in the folder Firmware, called "Mutated Mutables".
+The .hex files are also adjusted to work with the Blue Pill board and my schematics.
+
+You find detailed information about the alternative firmware and functions on Tim Churches' website: [http://timchurches.github.io/Mutated-Mutables/](http://timchurches.github.io/Mutated-Mutables/)
+
 ## STM32F103 Version
 CAUTION! There are three different versions of the Blue Pill board available.
 The difference is the version of the ST32F103 microchip on the board.
