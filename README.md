@@ -56,7 +56,6 @@ If you want to compile your own .hex files, you need to search the texts in the 
 | encoder.cc | Pin_13 | Pin_2 |
 | encoder.cc | Pin_14 | Pin_0 |
 | encoder.cc | Pin_15 | Pin_1 |
-| encoder.cc | gpioc | gpioa |
 | encoder.cc | GPIOC | GPIOA |
 | encoder.h | Pin_13 | Pin_2 |
 | encoder.h | GPIOC | GPIOA |
