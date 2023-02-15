@@ -25,6 +25,7 @@
 | Op Amp | TL072 | 1 | |
 | Op Amp | MCP6004 | 1 | |
 | Shift Register | 74HC595 | 2 | |
+| DAC | DAC8501 | 1 | SMD (8-VSSOP) |
 | ADC | MCP3204 | 1 | |
 | Voltage Regulator | LM11176-3.3 | 1 | SMD (SOT-223) |
 | Voltage Regulator | LM4040B25 | 1 | SMD (SOT-23) |
@@ -33,7 +34,7 @@
 | Encoder | 24 steps w/clicks w/switch | 1 | |
 | Mono Jack | 3.5mm | 6 | |
 | LED module | 14 segments, common cathode | 2 | e.g. Mouser: KINGBRIGHT PDC54-11 ||
-| Microchip Board | STM32F103 Blue Pill | 1 | See section "STM32F103 Version" in Readme file |
+| Development Board | STM32F103 Blue Pill | 1 | See section "STM32F103 Version" in Readme file |
 | Header | 2.54mm Female 1x20 | 2 | Socket Connector for Blue Pill Board |
 | Header | 2.54mm Male 1x8 | 1 | Connector Main Board |
 | Header | 2.54mm Male 1x6 | 2 | Connector Main Board |
