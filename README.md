@@ -30,7 +30,7 @@ Instead, I tried the still available DAC8501, which turned out to work just fine
 
 Most of the components are through-hole, including the microchip part, thanks to the available Blue Pill board. However, there are a few components, which I did not find as THT version, or which I got used to use them frequently (like bypass caps for ICs and NPN transistors).
 The SMD components are:
-- DAC8501 (DAC, SOP8 package, the most challenging component due to its size)
+- DAC8501 (DAC, 8-VSSOP package, the most challenging component due to its size)
 - LM1117-3.3 (voltage regulator, SOT223 package)
 - LM4040B25 and LM4040B10 (voltage regulators, SOT23 package)
 - MMBT3904 (SMD version of the 2N3904 transistor, SOT23 Package)
