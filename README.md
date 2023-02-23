@@ -84,7 +84,7 @@ Surprisingly, the programmer showed 128kB available flash memory, and the code c
 I tried it with several boards.
 So it seems STM3F103C8 is ok for this module.
 
-If you want to see more about the chip programming process, you can check out my YouTube video.
+If you want to see more about the chip programming process, you can check out my [YouTube video](https://youtu.be/TBMySGm7jKk).
 
 ![Braids](https://user-images.githubusercontent.com/97026614/215266608-331e4a45-db72-4f7e-a5bb-2ee86c1e5bd3.jpeg)
 
