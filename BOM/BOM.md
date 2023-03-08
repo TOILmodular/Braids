@@ -27,7 +27,7 @@
 | Shift Register | 74HC595 | 2 | |
 | DAC | DAC8501 | 1 | SMD (8-VSSOP) |
 | ADC | MCP3204 | 1 | |
-| Voltage Regulator | LM11176-3.3 | 1 | SMD (SOT-223) |
+| Voltage Regulator | LM1117-3.3 | 1 | SMD (SOT-223) |
 | Voltage Regulator | LM4040B25 | 1 | SMD (SOT-23) |
 | Voltage Regulator | LM4040B10 | 1 | SMD (SOT-23) |
 | Potentiometer | B10K | 6 | |
