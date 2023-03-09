@@ -40,7 +40,7 @@ I added the information about hole coordinates for the front panel in the folder
 I could not get the DAC8551 chip from the original design, not in stock.
 Instead, I tried the still available DAC8501, which turned out to work just fine, and which is also 16bit, like the original one.
 
-Most of the components are through-hole, including the microchip part, thanks to the available Blue Pill board. However, there are a few components, which I did not find as THT version, or which I got used to use them frequently (like bypass caps for ICs and NPN transistors).
+Most of the components are through-hole, including the microchip part, thanks to the available Blue Pill board. However, there are a few components, which I did not find as THT version, or which I got used to due to frequent usage in other projects (like bypass caps for ICs and NPN transistors).
 The SMD components are:
 - DAC8501 (DAC, 8-VSSOP package, the most challenging component due to its size)
 - LM1117-3.3 (voltage regulator, SOT223 package)
