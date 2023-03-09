@@ -1,6 +1,12 @@
 # Braids - Macro Oscillator for Eurorack
 A clone of the Mutable Instruments Braids module with the use of the STM32F103 Blue Pill board.
 
+<img height="500" src="https://user-images.githubusercontent.com/97026614/215266608-331e4a45-db72-4f7e-a5bb-2ee86c1e5bd3.jpeg"> <img height="500" src="https://user-images.githubusercontent.com/97026614/215266616-8cbeeec5-7710-44f6-bf8f-1bc07d317315.jpeg">
+
+<img height="500" src="https://user-images.githubusercontent.com/97026614/215266621-14e591da-91f2-47aa-876c-8161228491b0.jpeg">
+
+<img height="500" src="https://user-images.githubusercontent.com/97026614/215266645-07561741-37bf-43a4-b94f-cf6aa23f8489.jpeg"> <img height="500" src="https://user-images.githubusercontent.com/97026614/215266661-c8909050-4783-45e8-a165-4537c76e37b3.jpeg">
+
 ## Module Build and PCBs
 If you want to build the module yourself, I uploaded firmware, schematic, BOM and Gerber files for the PCB.
 
@@ -11,10 +17,16 @@ More details are given below in section Firmware.
 There are two different versions for the control board, an "original" and a "Thonk" version.
 Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
 
+<img width="300" alt="OrigCtrlPCBFront" src="https://user-images.githubusercontent.com/97026614/223884172-90efd2af-dccc-4010-851c-9c8f1d3502be.png">
+
 However, since most DIY projects for Eurorack modules out there are using potentiometers from ALPHA and so-called THONKICONN jacks, as they are provided by Thonk in the UK, I also created a version with footprints for those components.
 Choose the one you need.
 
+<img width="300" alt="ThonkCtrlPCBFront" src="https://user-images.githubusercontent.com/97026614/215266719-0676cbe8-5f73-4d37-a62f-86d374514e44.png">
+
 The layout of the main PCB is the same for both versions.
+
+<img width="300" alt="MainPCBBack" src="https://user-images.githubusercontent.com/97026614/215266697-00501da3-c50c-4a52-aa7a-fea21a24c836.png">
 
 I created the Gerber files with the online tool EasyEDA and ordered it at JLCPCB.
 I cannot guarantee, if this set of zipped Gerber files works also for other providers, like e.g. PCBWay. I have not tried that. But I saw online, that others did it.
@@ -85,21 +97,3 @@ I tried it with several boards.
 So it seems STM3F103C8 is ok for this module.
 
 If you want to see more about the chip programming process, you can check out my [YouTube video](https://youtu.be/TBMySGm7jKk).
-
-![Braids](https://user-images.githubusercontent.com/97026614/215266608-331e4a45-db72-4f7e-a5bb-2ee86c1e5bd3.jpeg)
-
-![BraidsLED](https://user-images.githubusercontent.com/97026614/215266616-8cbeeec5-7710-44f6-bf8f-1bc07d317315.jpeg)
-
-![BraidsFront](https://user-images.githubusercontent.com/97026614/215266621-14e591da-91f2-47aa-876c-8161228491b0.jpeg)
-
-![BraidsSide](https://user-images.githubusercontent.com/97026614/215266645-07561741-37bf-43a4-b94f-cf6aa23f8489.jpeg)
-
-![BraidsBack](https://user-images.githubusercontent.com/97026614/215266661-c8909050-4783-45e8-a165-4537c76e37b3.jpeg)
-
-<img width="495" alt="MainPCBBack" src="https://user-images.githubusercontent.com/97026614/215266697-00501da3-c50c-4a52-aa7a-fea21a24c836.png">
-
-<img width="495" alt="MainPCBFront" src="https://user-images.githubusercontent.com/97026614/215266708-05e1f6a8-e29c-43b1-80e6-da9165a71302.png">
-
-<img width="500" alt="ThonkCtrlPCBFront" src="https://user-images.githubusercontent.com/97026614/215266719-0676cbe8-5f73-4d37-a62f-86d374514e44.png">
-
-<img width="500" alt="ThonkCtrlPCBBack" src="https://user-images.githubusercontent.com/97026614/215266725-a34ad9aa-2cdd-441f-b46a-91d50e3914d7.png">
