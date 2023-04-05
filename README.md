@@ -97,3 +97,16 @@ I tried it with several boards.
 So it seems STM3F103C8 is ok for this module.
 
 If you want to see more about the chip programming process, you can check out my [YouTube video](https://youtu.be/TBMySGm7jKk).
+
+## Calibration
+The calibration procedure is the same, as the one for the original module from Mutable Instruments.
+
+1. Disconnect any signal from the FM input,
+2. Connect the pitch CV output of a well-calibrated keyboard interface or MIDI-CV converter to the 1V/O input.
+3. Set the COARSE and FINE knobs to 12 o'clock position.
+4. Go to CAL. in the options list.
+5. Push the encoder for 1s. The screen displays >C2.
+6. Send a voltage of 1V to the 1V/O input.
+7. Click on the encoder. The screen displays >C4.
+8. Send a voltage of 3V to the 1V/O input.
+9. Click on the encoder to finish calibration.
