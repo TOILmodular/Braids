@@ -20,7 +20,7 @@
 | Capacitor Ceramic | 0.1uF | 12 | SMD (1608) |
 | Capacitor Ceramic | 1000pF | 4 | |
 | Capacitor Ceramic | 100pF | 3 | |
-| Transistor | MMBT3904 | 5 | SMD (SOT-23) |
+| Transistor | MMBT3904 | 5 | SMD (SOT-23-3) |
 | Op Amp | TL074 | 1 | |
 | Op Amp | TL072 | 1 | |
 | Op Amp | MCP6004 | 1 | |
@@ -28,8 +28,8 @@
 | DAC | DAC8501 | 1 | SMD (8-VSSOP) |
 | ADC | MCP3204 | 1 | |
 | Voltage Regulator | LM1117-3.3 | 1 | SMD (SOT-223) |
-| Voltage Regulator | LM4040B25 | 1 | SMD (SOT-23) |
-| Voltage Regulator | LM4040B10 | 1 | SMD (SOT-23) |
+| Voltage Regulator | LM4040B25 | 1 | SMD (SOT-23-3) |
+| Voltage Regulator | LM4040B10 | 1 | SMD (SOT-23-3) |
 | Potentiometer | B10K | 6 | |
 | Encoder | 24 steps w/clicks w/switch | 1 | |
 | Mono Jack | 3.5mm | 6 | |
