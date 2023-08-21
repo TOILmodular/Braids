@@ -34,7 +34,11 @@ I cannot guarantee, if this set of zipped Gerber files works also for other prov
 If you want to know about my DIY building process, take a look at [this YouTube video](https://youtu.be/pXtuV9Pv-m4).
 
 ## Panel Layout
-I added the information about hole coordinates for the front panel in the folder PanelLayout, referring to the component layout in the Gerber files.
+I added the information about hole coordinates for the front panel in the folder PanelLayout, referring to the component layout in the PCB Gerber files.
+
+In addition, there is another Gerber file for the panel, following the HP standard. My own modules do not follow that width standard, as I am only using sliding nuts in my racks.
+
+You can use the panel Gerber file to have the panel built out of PCB material.
 
 ## Additional Information about specific Components
 I could not get the DAC8551 chip from the original design, not in stock.
